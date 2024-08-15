@@ -740,7 +740,7 @@ Some microcontrollers, when they are powered, have all their peripherals
 powered and enabled, automatically. STM32 MCUs, however, by default have their
 peripherals disabled in order to save power. In order to enable a GPIO peripheral,
 it should be enabled (clocked) via the RCC (Reset and Clock Control) unit.
-In the datasheet section 7.3.10 we find that the AHB1ENR (AHB1 peripheral
+In the datasheet section 7.3.10 (6.3.15 MJ) we find that the AHB1ENR (AHB1 peripheral
 clock enable register) is responsible to turn GPIO banks on or off. First we
 add a definition for the whole RCC unit:
 
